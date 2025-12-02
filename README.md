@@ -1,0 +1,5 @@
+Intelligent Behavior Monitor (IBM) este un Sistem de Inteligență Artificială (SIA) conceput pentru a detecta automat anomaliile comportamentale în fluxurile video de supraveghere, cum ar fi luptele, căderile sau abandonul de obiecte. Obiectivul principal este transformarea supravegherii clasice în una proactivă în domenii precum Securitate/Supraveghere/Smart Cities. Prin utilizarea SIA, timpul de răspuns poate fi redus cu 70-90%, iar numărul de alarme false scade cu 80%, crescând semnificativ eficiența operatorilor.
+
+
+
+Nucleul sistemului IBM este un model de Deep Learning care combină o Rețea Neuronală Convoluțională (CNN) pentru extracția caracteristicilor spațiale cu o Rețea Recurentă (RNN de tip LSTM/GRU) pentru modelarea dependențelor temporale și comportamentale. Sistemul, dezvoltat în Python folosind OpenCV și framework-uri ca PyTorch/TensorFlow , primește un flux video continuu (H.264) și, în caz de anomalie, emite o alertă în format JSON, specificând ID-ul camerei, ora de start a incidentului și tipul sugerat de anomalie.
